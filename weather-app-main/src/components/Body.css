@@ -1,0 +1,57 @@
+.image {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzPTI7d7JD_BhNMrEZ5-FVKbKUDFrmMCujNVOhK1fFRcf2DZ9HQNY4I_oyc6GpDSNUcx2mibAp0-4&usqp=CAU&ec=48665699');
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:local;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.image h1 {
+  color: blueviolet;
+}
+
+.image button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: violet;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.image button:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.container {
+  height: 300px;
+  width: 500px;
+  margin: auto;
+}
+
+.weather-city {
+  text-align: center;
+  padding: auto;
+  margin-top: 30px;
+  font-size: 40px;
+  font-style: italic;
+  color: lightblue;
+  font-weight: 500;
+}
+
+.weather {
+  text-align: center;
+  padding: auto;
+  margin-top: 10px;
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(174, 207, 218);
+  font-weight: 500;
+}
